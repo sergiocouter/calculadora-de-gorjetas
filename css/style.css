@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,700;1,400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor-primaria-ciano-forte: hsl(172, 67%, 45%);
+    --cor-ciano-escuro: hsl(183, 100%, 15%);
+    --cor-cinza-acinzentado: hsl(186, 14%, 43%);
+    --cor-ciano-acinzentado: hsl(184, 14%, 56%);
+    --cor-ciano-acinzentado-claro: hsl(185, 41%, 84%);
+    --cor-ciano-acinzentado-muito-claro: hsl(189, 41%, 97%);
+    --cor-branco: hsl(0, 0%, 100%);
+
+    --font-primaria: 'Space Mono';
+}
+
+.body{
+    background-color: var(--cor-primaria-ciano-forte);
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    margin: 15vh 0 5vh 0;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 55vw;
+    height: 45vh;
+    background-color: var(--cor-branco);
+    border-radius: 20px; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container__calculo{
+    width: 50%;
+    height: 85%;
+    background-color: var(--cor-ciano-acinzentado-muito-claro);
+    border-radius: 10px;
+}
+
+.container__resultado{
+    width: 40%;
+    height: 85%;
+    background-color: var(--cor-ciano-escuro); 
+    border-radius: 20px;
+}
