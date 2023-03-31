@@ -16,13 +16,39 @@
     <main class="main">
         <div class="container">
             <div class="container__calculo">
-                
+
+                <div class="container__calculo__pagamento">
+                    <label>Pagamento</label>
+                    <input type="number" name="pagamento" class="container__calculo__pagamento__input">
+                </div>
+                <div class="container__calculo__comissao">
+                    <label class="container__calculo__comissao__label">Selecione a Porcentagem %</label>
+                    <input class="container__calculo__comissao__botao" type="button" value="5%">
+                    <input class="container__calculo__comissao__botao" type="button" value="10%">
+                    <input class="container__calculo__comissao__botao" type="button" value="15%">
+                    <input class="container__calculo__comissao__botao" type="button" value="25%">
+                    <input class="container__calculo__comissao__botao" type="button" value="50%">
+                    <input class="container__calculo__comissao__botao" type="button" value="75%">
+                </div>  
+                <div class="container__calculo__pessoas">
+                    <label>Número de pessoas</label>
+                    <input type="number" name="pagamento" class="container__calculo__pagamento__input">
+                </div>   
             </div>
 
             <div class="container__resultado">
-
+                <div class="container__resultado__total">
+                    <label class="container__resultado__total_label">Comissão total/</label>
+                    <input class="container__resultado__input" type="text" name="comissaoTotal" id="">
+                </div>
+                <div class="container__resultado__pessoa">
+                    <label class="container__resultado__total_label">Por pessoa/</label>
+                    <input class="container__resultado__input" type="text" name="comissaoPessoa" id="">
+                </div>
+                <a class="container__resultado__botao" href="index.html">RESETAR</a>
             </div>
         </div>
     </main>
+    <script src="js/app.js"></script>
 </body>
 </html>
