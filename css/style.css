@@ -50,7 +50,7 @@
 
 .container__calculo{
     width: 50%;
-    height: 85%;
+    height: 90%;
     background-color: var(--cor-ciano-acinzentado-muito-claro);
     border-radius: 10px;
 }
@@ -59,7 +59,7 @@
     display: flex;
     flex-direction: column;
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: var(--cor-cinza-acinzentado);
 }
 
@@ -68,44 +68,45 @@
     border: none;
     border-radius: 5px;
     height: 4vh;
-    text-align: center;
+    text-align: right;
 }
 
 .container__calculo__comissao{
-    margin-top: 4vh;
+    margin-top: 2vh;
 }
 
 .container__calculo__comissao__label{
     display: block;
     margin: 2vh 0;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: var(--cor-cinza-acinzentado);
 }
 
 .container__calculo__comissao__botao{
-    width: 32%;
+    width: 25%;
     height: 3vh;
-    margin-bottom: 2vh;
+    margin:0 0 2vh 1.4vw;
     padding: 2px 0 30px 0;
     border: none;
     border-radius: 5px;
     background-color: var(--cor-ciano-escuro);
     color: var(--cor-branco);
     font-size: 16px;
+    cursor: pointer;
 }
 
 .container__calculo__pessoas{
     display: flex;
     flex-direction: column;
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: var(--cor-cinza-acinzentado);
-    margin-top: 3vh;
+    margin-top: 1vh;
 }
 
 .container__resultado{
     width: 40%;
-    height: 85%;
+    height: 90%;
     background-color: var(--cor-ciano-escuro); 
     border-radius: 20px;
 }
@@ -118,22 +119,24 @@
 }
 
 .container__resultado__total_label{
-    font-size: 1.3rem;
+    font-size: 1rem;
     color: var(--cor-branco);
 }
 
 .container__resultado__input{
     background-color: transparent;
     color: var(--cor-primaria-ciano-forte);
-    height: 4vh;
+    width: 6vw;
+    height: 5vh;
     border: none;
+    font-size: 1.1rem;
 }
 
 .container__resultado__pessoa{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    gap: 2vw;
+    gap: 3vw;
 }
 
 .container__resultado__botao{
@@ -147,4 +150,66 @@
     background-color: var(--cor-primaria-ciano-forte);
     color: var(--cor-branco);
     font-size: 20px;
+}
+
+/*Aqui começa o responsivo*/
+
+@media (max-width: 900px){
+    .container{
+        width: 90vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container__calculo{
+        width: 90%;
+        height: 60%;
+        background-color: var(--cor-ciano-acinzentado-muito-claro);
+        border-radius: 10px;
+        margin-top: 1.5vh;
+    }
+
+    .container__calculo__pagamento{
+        margin: 0.6rem 0 2rem 0;
+    }
+
+    .container__calculo__pagamento__input{
+        margin-top: 0.5rem;
+    }
+
+    .container__calculo__comissao__botao{
+        margin:0 0 2vh 4vw;
+    }
+
+    .container__calculo__pessoas{
+        margin-top: 5vh;
+    }
+
+    .container__resultado{
+        width: 90%;
+        height: 40%;
+        background-color: var(--cor-ciano-escuro); 
+        border-radius: 10px;
+        margin-bottom: 1.5vh;
+    }
+
+    .container__resultado__input{
+        width: 30vw;
+        height: 5vh;
+        font-size: 1.1rem;
+
+    }
+
+    .container__resultado__pessoa{
+        gap: 10vw;
+    }
+
+    .container__resultado__botao{
+        margin: 8vh 0 0 8.5vw;
+        padding: 8px;
+        font-size: 1rem;
+    }
 }
