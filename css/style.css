@@ -217,7 +217,19 @@
     }
 }
 
-@media (max-width: 500px){
+@media (max-width: 700px){
+
+    .cabecalho{
+        margin: 8vh 0 5vh 0;
+    }
+
+    .container__calculo{
+        width: 90%;
+        height: 45%;
+    }
+}
+
+@media (max-width: 600px){
 
     .cabecalho{
         margin: 8vh 0 5vh 0;
