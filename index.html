@@ -19,34 +19,34 @@
 
                 <div class="container__calculo__pagamento">
                     <label>Pagamento</label>
-                    <input type="text" name="" id="" class="container__calculo__pagamento__input">
+                    <input type="number" name="" id="valor-pagamento" class="container__calculo__pagamento__input">
                 </div>
                 <div class="container__calculo__comissao">
                     <label class="container__calculo__comissao__label">Selecione a Porcentagem %</label>
-                    <button class="container__calculo__comissao__botao" value="5">5%</button>
-                    <button class="container__calculo__comissao__botao" value="10">10%</button>
-                    <button class="container__calculo__comissao__botao" value="15">15%</button>
-                    <button class="container__calculo__comissao__botao" value="25">25%</button>
-                    <button class="container__calculo__comissao__botao" value="50">50%</button>
-                    <button class="container__calculo__comissao__botao" value="75">75%</button>
+                    <button class="container__calculo__comissao__botao" id="botao5"  value="5">5%</button>
+                    <button class="container__calculo__comissao__botao" id="botao10" value="10">10%</button>
+                    <button class="container__calculo__comissao__botao" id="botao15" value="15">15%</button>
+                    <button class="container__calculo__comissao__botao" id="botao25" value="25">25%</button>
+                    <button class="container__calculo__comissao__botao" id="botao50" value="50">50%</button>
+                    <button class="container__calculo__comissao__botao" id="botao75" value="75">75%</button>
                     
                 </div>  
                 <div class="container__calculo__pessoas">
                     <label>Número de pessoas</label>
-                    <input type="text" name="" id="" class="container__calculo__pagamento__input">
+                    <input type="number" name="" id="numero-pessoas" class="container__calculo__pagamento__input">
                 </div>   
             </div>
 
             <div class="container__resultado">
                 <div class="container__resultado__total">
-                    <label class="container__resultado__total_label">Comissão total/</label>
-                    <input class="container__resultado__input" type="text" name="comissaoTotal" id="">
+                    <label class="container__resultado__total_label">Comissão <br> <span class="container__resultado___span">total/</span></label>
+                    <h2 id="preco-total" class="container__resultado__input">R$ 0,00</h2>
                 </div>
                 <div class="container__resultado__pessoa">
-                    <label class="container__resultado__total_label">Por pessoa/</label>
-                    <input class="container__resultado__input" type="text" name="comissaoPessoa" id="">
+                    <label class="container__resultado__total_label">Comissão <br> <span class="container__resultado___span">pessoa/</span></label>
+                    <h2 id="preco-pessoa" class="container__resultado__input">R$ 0,00</h2>
                 </div>
-                <button class="container__resultado__botao">CALCULAR</button>
+                <a href="index.html" class="container__resultado__botao" id="botao-reset">RESET</a>
             </div>
         </div>
     </main>

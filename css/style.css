@@ -115,35 +115,37 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 5vh 0;
+    margin:3vh 0 4vh 0;
 }
 
 .container__resultado__total_label{
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: var(--cor-branco);
 }
 
 .container__resultado__input{
     background-color: transparent;
     color: var(--cor-primaria-ciano-forte);
-    width: 6vw;
-    height: 5vh;
-    border: none;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
+}
+
+.container__resultado___span{
+    font-size: 0.7rem;
+    color: var(--cor-ciano-acinzentado);
 }
 
 .container__resultado__pessoa{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    gap: 3vw;
+    margin-bottom: 5vh;
 }
 
 .container__resultado__botao{
     display: flex;
     justify-content: center;
-    margin: 10vh 0 0 2.5vw;
-    padding: 12px;
+    margin: auto;
+    padding: 0.3rem;
     width: 80%;
     border-radius: 5px;
     text-decoration: none;
@@ -166,18 +168,18 @@
 
     .container__calculo{
         width: 90%;
-        height: 60%;
+        height: 50%;
         background-color: var(--cor-ciano-acinzentado-muito-claro);
         border-radius: 10px;
         margin-top: 1.5vh;
     }
 
     .container__calculo__pagamento{
-        margin: 0.6rem 0 2rem 0;
+        margin: 0.6vh 0 1vh 0;
     }
 
     .container__calculo__pagamento__input{
-        margin-top: 0.5rem;
+        margin-top: 0.2vh;
     }
 
     .container__calculo__comissao__botao{
@@ -185,7 +187,7 @@
     }
 
     .container__calculo__pessoas{
-        margin-top: 5vh;
+        margin-top: 2vh;
     }
 
     .container__resultado{
@@ -203,12 +205,8 @@
 
     }
 
-    .container__resultado__pessoa{
-        gap: 10vw;
-    }
-
     .container__resultado__botao{
-        margin: 8vh 0 0 8.5vw;
+        margin: 2vh 0 0 8.5vw;
         padding: 8px;
         font-size: 1rem;
     }
