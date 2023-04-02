@@ -157,6 +157,11 @@
 /*Aqui começa o responsivo*/
 
 @media (max-width: 900px){
+    
+    .cabecalho{
+        margin: 8vh 0 5vh 0;
+    }
+
     .container{
         width: 90vw;
         height: 100vh;
@@ -209,5 +214,17 @@
         margin: 2vh 0 0 8.5vw;
         padding: 8px;
         font-size: 1rem;
+    }
+}
+
+@media (max-width: 400px){
+
+    .cabecalho{
+        margin: 8vh 0 5vh 0;
+    }
+
+    .container__calculo{
+        width: 90%;
+        height: 45%;
     }
 }
