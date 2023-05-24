@@ -3,7 +3,7 @@
 > É uma calculadora de comissões, onde é possivel escolhar o valor da porcentagem do desconto, para quantas pessoas serão divididas a comissão e o valor total do produto.
 
 ## Tecnologias
-> Html, Css, Javascript, DOM
+> Html, Css, Javascript, DOM, Media querys
 
 ## Objetivo
 > Melhorar as práticas com o uso da lógica com JavaScript e a manipulação de DOM
